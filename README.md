@@ -78,7 +78,8 @@ Official gaming website for the Rick5007 YouTube channel
       padding: 60px 20px;
     }
 
-    header img {![image](https://github.com/user-attachments/assets/5753393b-d0d9-4edb-8cb3-83af746baa13)
+    header img {width: 140px;
+      filter: drop-shadow(0 0 25px red);
 
       width: 140px;
       filter: drop-shadow(0 0 25px red);
@@ -187,7 +188,7 @@ Official gaming website for the Rick5007 YouTube channel
   </div>
 
   <script>
-    const music = https://youtu.be/JJzrBQGVa_c?si=jG31FDrjLh72E8QZdocument.getElementById("bgMusic");
+    const music = document.getElementById("bgMusic");
     let playing = false;
 
     function toggleMusic() {
